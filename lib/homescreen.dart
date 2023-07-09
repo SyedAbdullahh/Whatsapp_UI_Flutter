@@ -9,8 +9,8 @@ class HomeScreen extends StatelessWidget {
         length: 4,
         child: Scaffold(
             appBar: AppBar(
-              title: Text('WhatsApp'),
-              bottom: TabBar(
+              title: const Text('WhatsApp'),
+              bottom: const TabBar(
                 indicatorColor: Colors.white,
                 tabs: [
                   Tab(child: Icon(Icons.camera_alt)),
@@ -26,37 +26,37 @@ class HomeScreen extends StatelessWidget {
                 ],
               ),
               actions: [
+                 Container(
+                    padding: const EdgeInsets.only(right: 10),
+                    child: const Icon(Icons.search)),
                 Container(
-                    padding: EdgeInsets.only(right: 10),
-                    child: Icon(Icons.search)),
-                Container(
-                  padding: EdgeInsets.only(right: 10),
+                  padding: const EdgeInsets.only(right: 10),
                   //child: Icon(Icons.more_vert_outlined)
                   child: PopupMenuButton(
-                      icon: Icon(Icons.more_vert_outlined),
+                      icon: const Icon(Icons.more_vert_outlined),
                       itemBuilder: (
                         context,
                       ) =>
                           [
-                            PopupMenuItem(child: Text('Create Group')),
-                            PopupMenuItem(child: Text('Settings')),
-                            PopupMenuItem(child: Text('Log Out')),
+                            const PopupMenuItem(child: Text('Create Group')),
+                            const PopupMenuItem(child: Text('Settings')),
+                            const PopupMenuItem(child: Text('Log Out')),
                           ]),
                 ),
               ],
             ),
             body: TabBarView(
               children: [
-                Text(''),
+                const Text(''),
                 //Chats Portion Code
  //________________________________________________________________________________________________________
                 ListView.builder(
                     itemCount: 100,
                     itemBuilder: (context, index) {
                       return Container(
-                        decoration: BoxDecoration(
+                        decoration: const BoxDecoration(
                             border: Border(bottom: BorderSide(width: 0.1))),
-                        child: ListTile(
+                        child:const  ListTile(
                           leading: CircleAvatar(
                             backgroundImage: NetworkImage(
                                 'https://www.insaf.pk/sites/default/files/IK.jpg'),
@@ -83,24 +83,24 @@ class HomeScreen extends StatelessWidget {
                                  ListTile(
                                   leading: Container(
 
-                                    child: CircleAvatar(
+                                    child: const CircleAvatar(
                                       backgroundColor: Color(0xffdcf8c6),
                                       child: Icon(Icons.person, color: Colors.white),
                                     ),
                                   ),
-                                  title: Text('My Status'),
-                                  subtitle: Text('Add to my status'),
+                                  title: const Text('My Status'),
+                                  subtitle: const Text('Add to my status'),
                                   trailing: Wrap(
                                     children: [
                                       CircleAvatar(
 
-                                          backgroundColor: Color(0xffdcf8c6),
+                                          backgroundColor: const Color(0xffdcf8c6),
                                           child: TextButton(
-                                              child: Icon(Icons.camera_alt),
+                                              child: const Icon(Icons.camera_alt),
                                               onPressed: () {})),
                                       CircleAvatar(
-                                          backgroundColor: Color(0xffdcf8c6),
-                                          child: TextButton(child: Icon(Icons.edit),onPressed: (){})
+                                          backgroundColor: const Color(0xffdcf8c6),
+                                          child: TextButton(child: const Icon(Icons.edit),onPressed: (){})
                                       )
                                     ],
                                   ),
@@ -112,18 +112,18 @@ class HomeScreen extends StatelessWidget {
                                return Container(
                                     height: 27,
 
-                                   decoration: BoxDecoration(
+                                   decoration:const  BoxDecoration(
                                      color: Color(0xffece5dd),
                                    ),
 
-                                   padding: EdgeInsets.only(left:16,right:16,top:5 ),
+                                   padding: const EdgeInsets.only(left:16,right:16,top:5 ),
 
-                                   child: Text('Recent Updates',style: TextStyle(color: Color(0xff25d366)),
+                                   child: const Text('Recent Updates',style: TextStyle(color: Color(0xff25d366)),
                                    ));
                              }
                             else {
                               return Container(
-                                decoration: BoxDecoration(
+                                decoration: const BoxDecoration(
                                     border: Border(bottom: BorderSide(width: 0.1))),
                                 child: ListTile(
                                   leading: Container(
@@ -134,12 +134,12 @@ class HomeScreen extends StatelessWidget {
                                           width: 2,
                                         )
                                     ),
-                                    child: CircleAvatar(
+                                    child: const CircleAvatar(
                                       backgroundImage: NetworkImage(
                                           'https://www.insaf.pk/sites/default/files/IK.jpg'),
                                     ),
                                   ),
-                                  title: Text('Imran Khan'),
+                                  title: const Text('Imran Khan'),
                                   subtitle: Text('$index h ago'),
 
                                 ),
@@ -157,10 +157,10 @@ class HomeScreen extends StatelessWidget {
                     itemCount: 100,
                     itemBuilder: (context, index) {
                       return Container(
-                        decoration: BoxDecoration(
+                        decoration: const BoxDecoration(
                             border: Border(bottom: BorderSide(width: 0.01))),
                         child: ListTile(
-                          leading: CircleAvatar(
+                          leading: const CircleAvatar(
                             backgroundImage: NetworkImage(
                                 'https://www.insaf.pk/sites/default/files/IK.jpg'),
                           ),
@@ -182,12 +182,12 @@ class HomeScreen extends StatelessWidget {
                               Wrap(
                                   children:[
                                     Container(
-                                      padding:EdgeInsets.only(top:12),
+                                      padding:const EdgeInsets.only(top:12),
                                         child: Text(index ~/ 2 == 0 ? 'Tuesday' : 'Monday')
                                     ),
                                     CircleAvatar(
-                                        backgroundColor: Color(0xfffff),
-                                        child: TextButton(child: Icon(Icons.info_outline),onPressed: (){})
+                                        backgroundColor: const Color(0xffffffff),
+                                        child: TextButton(child: const Icon(Icons.info_outline),onPressed: (){})
                                     ),
 
 
