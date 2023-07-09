@@ -7,16 +7,16 @@ This UI uses:
 - Other commonly used Widgets.
 
 ## Chats:
-<img src="https://github.com/SyedAbdullahh/whatsapp_ui/assets/103010202/6e936737-2687-401f-a32c-74d4ce02b984" data-canonical-src="https://github.com/SyedAbdullahh/whatsapp_ui/assets/103010202/6e936737-2687-401f-a32c-74d4ce02b984" width="200" height="400" />
+<img src="https://github.com/SyedAbdullahh/whatsapp_ui/assets/103010202/6e936737-2687-401f-a32c-74d4ce02b984" data-canonical-src="https://github.com/SyedAbdullahh/whatsapp_ui/assets/103010202/6e936737-2687-401f-a32c-74d4ce02b984" width="400" height="600" />
+
+## Status:
+<img src="https://github.com/SyedAbdullahh/whatsapp_ui/assets/103010202/cbc53962-71ca-4f73-a334-4a4972f06585" data-canonical-src="https://github.com/SyedAbdullahh/whatsapp_ui/assets/103010202/cbc53962-71ca-4f73-a334-4a4972f06585" width="400" height="600" />
+
+## Menu Popup Button
+<img src="https://github.com/SyedAbdullahh/whatsapp_ui/assets/103010202/098e4c79-c41f-4773-a8e6-eeacc0bca177" data-canonical-src="https://github.com/SyedAbdullahh/whatsapp_ui/assets/103010202/098e4c79-c41f-4773-a8e6-eeacc0bca177" width="400" height="600" />
+
+## Calls
+<img src="https://github.com/SyedAbdullahh/whatsapp_ui/assets/103010202/a31c94a7-93b4-465c-ab79-be9c0e4c5476" data-canonical-src="https://github.com/SyedAbdullahh/whatsapp_ui/assets/103010202/a31c94a7-93b4-465c-ab79-be9c0e4c5476" width="400" height="600" />
 
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
