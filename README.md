@@ -1,8 +1,14 @@
-# whatsapp_ui
+# WhatsApp UI Made in Flutter & Dart
 
-A new Flutter project.
+This UI uses:
+- List Tiles
+- List View Builders
+- Tabs
+- Other commonly used Widgets.
 
-## Getting Started
+## Chats:
+<img src="https://github.com/SyedAbdullahh/whatsapp_ui/assets/103010202/6e936737-2687-401f-a32c-74d4ce02b984" data-canonical-src="https://github.com/SyedAbdullahh/whatsapp_ui/assets/103010202/6e936737-2687-401f-a32c-74d4ce02b984" width="200" height="400" />
+
 
 This project is a starting point for a Flutter application.
 
